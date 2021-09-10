@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./Header/Header";
 import LocationSelector from "./Content/LocationSelector";
+import ForecastDisplay from "./Content/ForecastDisplay";
 
 function App() {
   //make entire page grid
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Header />
       <LocationSelector />
+      <ForecastDisplay />
     </div>
   );
 }
